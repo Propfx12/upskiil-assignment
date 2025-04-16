@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Document</title>
 </head>
 <body>
-    
+  <div class="challenge">
+    <h2>Challenge 1: Even or Odd</h2>
+    <label for="num">Enter a number:</label>
+    <input type="number" id="num" />
+    <button onclick="checkEvenOdd()">Check</button>
+    <div class="output" id="evenOddResult"></div>
+  </div>
+
+  <div class="challenge">
+    <h2>Challenge 2: Grading System</h2>
+    <label for="score">Enter score (0-100):</label>
+    <input type="number" id="score" />
+    <button onclick="checkGrade()">Check Grade</button>
+    <div class="output" id="gradeResult"></div>
+  </div>
+
+  <div class="challenge">
+    <h2>Challenge 3: Voting Eligibility</h2>
+    <label for="age">Enter your age:</label>
+    <input type="number" id="age" />
+    <button onclick="checkVoting()">Check Eligibility</button>
+    <div class="output" id="votingResult"></div>
+  </div>
+
+  <div class="challenge">
+    <h2>Challenge 4: Largest Number</h2>
+    <label>Enter three numbers:</label>
+    <input type="number" id="a" placeholder="a" />
+    <input type="number" id="b" placeholder="b" />
+    <input type="number" id="c" placeholder="c" />
+    <button onclick="findLargest()">Find Largest</button>
+    <div class="output" id="largestResult"></div>
+  </div>
+
+  <div class="challenge">
+    <h2>Challenge 5: Login System</h2>
+    <label for="uname">Username:</label>
+    <input type="text" id="uname" />
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" />
+    <button onclick="checkLogin()">Login</button>
+    <div class="output" id="loginResult"></div>
+  </div>
+
+  <script src="./java.js"></script>
 </body>
 </html>

@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #001027;
+    padding: 40px;
+    color: #333;
+  }
+
+  .challenge {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 6px solid #001027;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 10px;
+  }
+
+  h2 {
+    color: #001027;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+
+  input {
+    padding: 8px;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+
+  button {
+    background-color: #001027;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  button:hover {
+    background-color: #001027;
+  }
+
+  .output {
+    margin-top: 10px;
+    padding: 10px;
+    background: #e8f5e9;
+    border-left: 4px solid #001027;
+    border-radius: 5px;
+    font-style: italic;
+  }
